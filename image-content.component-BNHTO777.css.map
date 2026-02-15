@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/verse/image-content/image-content.component.scss"],
+  "sourcesContent": [".image-container {\n  cursor: pointer;\n  border-radius: 14px;\n  overflow: hidden;\n  transition: transform 0.2s ease;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n\n  &:hover {\n    transform: scale(1.02);\n  }\n}\n\n.thumbnail {\n  width: 100%;\n  max-height: 712px;\n  object-fit: contain;\n  border-radius: 8px;\n  display: block;\n}\n\n@media (min-width: 768px) {\n  .thumbnail {\n    max-height: 650px;\n    object-fit: cover;\n  }\n}\n"],
+  "mappings": "AAAA,CAAA,gBACE,OAAA,QADF,cAEE,KACA,SAAA,OACA,WAAA,UAAA,IAAA,KACA,MAAA,KACA,OAAA,KACA,QAAA,KACA,YAAA,OACA,gBAAA,OAEA,CAXF,eAWE,OACE,UAAA,MAAA,MAIJ,CAAA,UACE,MAAA,KACA,WAAA,MACA,WAAA,QAnBF,cAoBE,IACA,QAAA,MAGF,OAAA,CAAA,SAAA,EAAA,OACE,CATF,UAUI,WAAA,MACA,WAAA",
+  "names": []
+}

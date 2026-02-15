@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/common/loading/loading.service.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport { BehaviorSubject } from 'rxjs';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class LoadingService {\n  #loading = new BehaviorSubject<boolean>(false);\n  loading$ = this.#loading.asObservable();\n\n  setLoading(loading: boolean) {\n    this.#loading.next(loading);\n  }\n}\n"],
+  "mappings": "qGAMA,IAAaA,GAAc,IAAA,CAN3B,IAAAC,EAMM,IAAOD,EAAP,MAAOA,CAAc,CAH3BE,aAAA,CAIEC,EAAA,KAAAF,GAAAG,EAAA,KAAAH,EAAW,IAAII,EAAyB,EAAK,GAC7C,KAAAC,SAAWC,EAAA,KAAKN,GAASO,aAAY,EAErCC,WAAWC,EAAgB,CACzBH,EAAA,KAAKN,GAASU,KAAKD,CAAO,CAC5B,GALAT,EAAA,kDADWD,EAAc,wBAAdA,EAAcY,QAAdZ,EAAca,UAAAC,WAFb,MAAM,CAAA,EAEd,IAAOd,EAAPe,SAAOf,CAAc,GAAA",
+  "names": ["LoadingService", "_loading", "constructor", "__privateAdd", "__privateSet", "BehaviorSubject", "loading$", "__privateGet", "asObservable", "setLoading", "loading", "next", "factory", "\u0275fac", "providedIn", "_LoadingService"]
+}

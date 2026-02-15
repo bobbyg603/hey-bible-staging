@@ -1,0 +1,2 @@
+import{$ as o}from"./chunk-EIAV7JGL.js";import{b as e}from"./chunk-YWHZWYCP.js";var f=(()=>{let t=class t{get android(){return this.platform==="android"}get ios(){return this.platform==="ios"}get mobile(){return this.android||this.ios}get platform(){return e.getPlatform()}get web(){return this.platform==="web"}};t.\u0275fac=function(i){return new(i||t)},t.\u0275prov=o({token:t,factory:t.\u0275fac,providedIn:"root"});let r=t;return r})();export{f as a};
+//# sourceMappingURL=chunk-PLV2ZQZ3.js.map

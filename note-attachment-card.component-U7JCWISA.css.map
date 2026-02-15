@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/verse/note-attachment-card/note-attachment-card.component.scss"],
+  "sourcesContent": [".cursor-pointer {\n  cursor: pointer;\n}\n\nion-card {\n  position: relative;\n}\n\nion-card-header {\n  padding: 16px 16px 0 16px;\n}\n\nion-card-content {\n  padding: 16px;\n}\n\n.card-actions {\n  position: absolute;\n  top: 16px;\n  right: 18px;\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  z-index: 10;\n}\n\n.action-icon {\n  cursor: pointer;\n  display: block;\n  width: 24px;\n  height: 24px;\n}\n\n.save-status {\n  display: flex;\n  align-items: center;\n  gap: 4px;\n  font-size: 12px;\n  color: var(--ion-color-medium);\n\n  ion-spinner {\n    width: 16px;\n    height: 16px;\n  }\n}\n\n.edit-textarea {\n  --padding-top: 1.5px;\n  --padding-bottom: 0px;\n  --padding-start: 0px;\n  --padding-end: 0px;\n  --background: transparent;\n  border-radius: 4px;\n}\n  "],
+  "mappings": "AAAA,CAAA,eACE,OAAA,QAGF,SACE,SAAA,SAGF,gBARA,QASE,KAAA,KAAA,EAGF,iBAZA,QAaE,KAGF,CAAA,aACE,SAAA,SACA,IAAA,KACA,MAAA,KACA,QAAA,KACA,YAAA,OACA,IAAA,KACA,QAAA,GAGF,CAAA,YACE,OAAA,QACA,QAAA,MACA,MAAA,KACA,OAAA,KAGF,CAAA,YACE,QAAA,KACA,YAAA,OACA,IAAA,IACA,UAAA,KACA,MAAA,IAAA,oBAEA,CAPF,YAOE,YACE,MAAA,KACA,OAAA,KAIJ,CAAA,cACE,eAAA,MACA,kBAAA,IACA,iBAAA,IACA,eAAA,IACA,cAAA,YAnDF,cAoDE",
+  "names": []
+}

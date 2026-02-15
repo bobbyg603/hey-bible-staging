@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/common/tag-chip/tag-chip.component.scss"],
+  "sourcesContent": [".tag-chip {\n  margin: 0;\n  height: 28px;\n  font-size: 13px;\n  // Lighten the background color by mixing with white (60% tag color, 40% white)\n  --background: color-mix(in srgb, var(--tag-color) 60%, white);\n  // Darken the tag color for text to ensure contrast on the light background\n  --color: color-mix(in srgb, var(--tag-color) 50%, black);\n\n  .tag-icon {\n    margin-right: 4px;\n    font-size: 14px;\n    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);\n  }\n\n  ion-label {\n    margin: 0 4px;\n  }\n\n  ion-icon {\n    margin-left: 2px;\n    margin-right: -2px;\n    font-size: 16px;\n  }\n}\n"],
+  "mappings": "AAAA,CAAA,SAAA,OACE,EACA,OAAA,KACA,UAAA,KAEA,cAAA,UAAA,GAAA,IAAA,EAAA,IAAA,aAAA,GAAA,EAAA,OAEA,SAAA,UAAA,GAAA,IAAA,EAAA,IAAA,aAAA,GAAA,EAAA,OAEA,CATF,SASE,CAAA,SACE,aAAA,IACA,UAAA,KACA,YAAA,EAAA,IAAA,IAAA,KAAA,CAAA,CAAA,CAAA,CAAA,CAAA,CAAA,IAGF,CAfF,SAeE,UAfF,OAgBI,EAAA,IAGF,CAnBF,SAmBE,SACE,YAAA,IACA,aAAA,KACA,UAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/common/results/results.component.scss"],
+  "sourcesContent": [":host ::ng-deep {\n  ion-card {\n    margin: 0px;\n  }\n\n  app-verse-card {\n    display: block;\n    padding-top: 0px;\n    padding-bottom: 16px;\n    padding-left: 16px;\n    padding-right: 16px;\n  }\n}\n"],
+  "mappings": "AACE,MAAA,UAAA,SAAA,OACE,EAGF,MAAA,UAAA,eACE,QAAA,MACA,QAAA,EAGA,KAFA",
+  "names": []
+}

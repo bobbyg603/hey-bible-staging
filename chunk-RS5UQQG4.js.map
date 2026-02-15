@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/tools/admin.guard.ts"],
+  "sourcesContent": ["import { inject } from '@angular/core';\nimport { Router } from '@angular/router';\nimport { map } from 'rxjs/operators';\nimport { getRoutePath, searchRoutePath } from '../app.routes';\nimport { ProfileService } from '../profile/profile.service';\n\nexport const canActivateAdmin = () => {\n  const profileService = inject(ProfileService);\n  const router = inject(Router);\n\n  return profileService.isAdmin$.pipe(\n    map((isAdmin) => {\n      if (isAdmin) {\n        return true;\n      }\n\n      // Redirect to search page if user is not admin\n      return router.createUrlTree([getRoutePath(searchRoutePath)]);\n    })\n  );\n};\n"],
+  "mappings": "2oBAMO,IAAMA,EAAmBA,IAAK,CACnC,IAAMC,EAAiBC,EAAOC,CAAc,EACtCC,EAASF,EAAOG,CAAM,EAE5B,OAAOJ,EAAeK,SAASC,KAC7BC,EAAKC,GACCA,EACK,GAIFL,EAAOM,cAAc,CAACC,EAAaC,CAAe,CAAC,CAAC,CAC5D,CAAC,CAEN",
+  "names": ["canActivateAdmin", "profileService", "inject", "ProfileService", "router", "Router", "isAdmin$", "pipe", "map", "isAdmin", "createUrlTree", "getRoutePath", "searchRoutePath"]
+}

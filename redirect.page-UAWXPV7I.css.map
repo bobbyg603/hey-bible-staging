@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/checkout/redirect.page.ts"],
+  "sourcesContent": ["\n    .container {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      height: 100%;\n      gap: 12px;\n      max-width: 300px;\n      margin: 0 auto;\n      text-align: center;\n    }\n    .status-icon {\n      font-size: 64px;\n    }\n    h2 {\n      margin: 0;\n      font-size: 22px;\n      font-weight: 600;\n    }\n    p {\n      margin: 0;\n      color: var(--ion-color-medium);\n      font-size: 16px;\n    }\n    .hint {\n      margin-top: 8px;\n      font-size: 14px;\n      color: var(--ion-color-medium-shade);\n    }\n    .continue-btn {\n      margin-top: 16px;\n      width: 100%;\n    }\n  "],
+  "mappings": "AACI,CAAA,UACE,QAAA,KACA,eAAA,OACA,YAAA,OACA,gBAAA,OACA,OAAA,KACA,IAAA,KACA,UAAA,MAPF,OAQE,EAAA,KACA,WAAA,OAEF,CAAA,YACE,UAAA,KAEF,GAdA,OAeE,EACA,UAAA,KACA,YAAA,IAEF,EAnBA,OAoBE,EACA,MAAA,IAAA,oBACA,UAAA,KAEF,CAAA,KACE,WAAA,IACA,UAAA,KACA,MAAA,IAAA,0BAEF,CAAA,aACE,WAAA,KACA,MAAA",
+  "names": []
+}

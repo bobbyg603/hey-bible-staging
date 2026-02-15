@@ -1,0 +1,2 @@
+import{$ as n}from"./chunk-EIAV7JGL.js";var a=(()=>{let e=class e{log(r,...o){console.log(r,...o)}warn(r,...o){console.warn(r,...o)}error(r,...o){console.error(r,...o)}info(r,...o){console.info(r,...o)}debug(r,...o){console.debug(r,...o)}};e.\u0275fac=function(o){return new(o||e)},e.\u0275prov=n({token:e,factory:e.\u0275fac,providedIn:"root"});let t=e;return t})();export{a};
+//# sourceMappingURL=chunk-6WBJUELS.js.map

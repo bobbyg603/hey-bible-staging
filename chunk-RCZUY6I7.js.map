@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/common/timer/timer.service.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport { debounceTime, timer } from 'rxjs';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class TimerService {\n  /**\n   * Creates an RxJS timer observable\n   */\n  timer(dueTime: number) {\n    return timer(dueTime);\n  }\n\n  /**\n   * Creates an RxJS debounceTime operator\n   */\n  debounceTime(dueTime: number) {\n    return debounceTime(dueTime);\n  }\n} "],
+  "mappings": "sDAMA,IAAaA,GAAY,IAAA,CAAnB,IAAOA,EAAP,MAAOA,CAAY,CAIvBC,MAAMC,EAAe,CACnB,OAAOD,EAAMC,CAAO,CACtB,CAKAC,aAAaD,EAAe,CAC1B,OAAOC,EAAaD,CAAO,CAC7B,yCAbWF,EAAY,wBAAZA,EAAYI,QAAZJ,EAAYK,UAAAC,WAFX,MAAM,CAAA,EAEd,IAAON,EAAPO,SAAOP,CAAY,GAAA",
+  "names": ["TimerService", "timer", "dueTime", "debounceTime", "factory", "\u0275fac", "providedIn", "_TimerService"]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/login/login.page.scss"],
+  "sourcesContent": ["$buttonWidth: 75%;\n\n:host ::ng-deep {\n  ion-button {\n    width: $buttonWidth;\n    margin-top: 8px;\n  }\n\n  ion-grid {\n    height: 100%;\n  }\n\n  ion-row {\n    height: 100%;\n  }\n\n  ion-list {\n    --ion-item-background: transparent;\n  }\n\n  a {\n    text-decoration: none;\n\n    &:hover {\n      text-decoration: none;\n    }\n  }\n}\n\n.divider {\n  display: flex;\n  align-items: center;\n  text-align: center;\n  margin: 20px 0;\n\n  .line {\n    flex: 1;\n    height: 1px;\n    background-color: var(--ion-color-medium);\n  }\n\n  .or-text {\n    padding: 0 10px;\n    color: var(--ion-color-medium);\n    font-size: 14px;\n  }\n}\n\n.continue-link {\n  display: block;\n  text-align: center;\n  color: var(--ion-color-primary);\n  text-decoration: none;\n  margin-bottom: 20px;\n\n  &:hover {\n    text-decoration: none;\n  }\n}\n"],
+  "mappings": "AAGE,MAAA,UAAA,WACE,MAJU,IAKV,WAAA,IAGF,MAAA,UAAA,SACE,OAAA,KAGF,MAAA,UAAA,QACE,OAAA,KAGF,MAAA,UAAA,SACE,uBAAA,YAGF,MAAA,UAAA,EACE,gBAAA,KAEA,MAAA,UAAA,CAAA,OACE,gBAAA,KAKN,CAAA,QACE,QAAA,KACA,YAAA,OACA,WAAA,OA7BA,OA8BA,KAAA,EAEA,CANF,QAME,CAAA,KACE,KAAA,EACA,OAAA,IACA,iBAAA,IAAA,oBAGF,CAZF,QAYE,CAAA,QAtCA,QAuCE,EAAA,KACA,MAAA,IAAA,oBACA,UAAA,KAIJ,CAAA,cACE,QAAA,MACA,WAAA,OACA,MAAA,IAAA,qBACA,gBAAA,KACA,cAAA,KAEA,CAPF,aAOE,OACE,gBAAA",
+  "names": []
+}

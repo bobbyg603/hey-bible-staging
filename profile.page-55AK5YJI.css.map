@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/profile/profile.page.scss"],
+  "sourcesContent": ["ion-menu {\n  --width: 100%;\n}\n\nion-button {\n  width: 100%;\n}\n\n.avatar-container {\n  display: flex;\n  justify-content: center;\n  padding: 20px;\n\n  &.large-avatar {\n    app-avatar {\n      width: 120px;\n      height: 120px;\n      font-size: 48px;\n    }\n  }\n}\n\n.cache-section {\n  margin-top: 32px;\n  border-top: 1px solid var(--ion-color-light);\n  \n  h3 {\n    margin-bottom: 16px;\n    color: var(--ion-color-primary);\n    font-weight: 600;\n  }\n}\n\n.cache-buttons {\n  display: flex;\n  gap: 12px;\n  flex-direction: column;\n  \n  .cache-button {\n    margin: 0;\n  }\n}\n\n.cache-info {\n  margin-top: 16px;\n  color: var(--ion-color-medium);\n  line-height: 1.4;\n}\n"],
+  "mappings": "AAAA,SACE,SAAA,KAGF,WACE,MAAA,KAGF,CAAA,iBACE,QAAA,KACA,gBAAA,OAVF,QAWE,KAGE,CANJ,gBAMI,CAAA,aAAA,WACE,MAAA,MACA,OAAA,MACA,UAAA,KAKN,CAAA,cACE,WAAA,KACA,WAAA,IAAA,MAAA,IAAA,mBAEA,CAJF,cAIE,GACE,cAAA,KACA,MAAA,IAAA,qBACA,YAAA,IAIJ,CAAA,cACE,QAAA,KACA,IAAA,KACA,eAAA,OAEA,CALF,cAKE,CAAA,aAtCF,OAuCI,EAIJ,CAAA,WACE,WAAA,KACA,MAAA,IAAA,oBACA,YAAA",
+  "names": []
+}

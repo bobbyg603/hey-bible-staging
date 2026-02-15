@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/verse/image-content/image-modal/image-modal.component.scss"],
+  "sourcesContent": ["ion-content {\n  --padding: 0;\n  --background: rgba(0, 0, 0, 0.8);\n}\n\n.image-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n  padding: 8px;\n}\n\n.full-image {\n  max-width: 100%;\n  max-height: 100%;\n  width: auto;\n  height: auto;\n  object-fit: contain;\n  border-radius: 8px;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n} "],
+  "mappings": "AAAA,YACE,WAAA,EACA,cAAA,KAAA,CAAA,EAAA,CAAA,EAAA,CAAA,EAAA,IAGF,CAAA,gBACE,QAAA,KACA,gBAAA,OACA,YAAA,OACA,OAAA,KATF,QAUE,IAGF,CAAA,WACE,UAAA,KACA,WAAA,KACA,MAAA,KACA,OAAA,KACA,WAAA,QAlBF,cAmBE,IACA,WAAA,EAAA,IAAA,IAAA",
+  "names": []
+}

@@ -1,0 +1,2 @@
+import{$ as c,g as n}from"./chunk-EIAV7JGL.js";import{k as r,l as a,m as s}from"./chunk-PGBQIJS2.js";var m=(()=>{var o;let t=class t{constructor(){a(this,o);s(this,o,new n(!1)),this.loading$=r(this,o).asObservable()}setLoading(i){r(this,o).next(i)}};o=new WeakMap,t.\u0275fac=function(f){return new(f||t)},t.\u0275prov=c({token:t,factory:t.\u0275fac,providedIn:"root"});let e=t;return e})();export{m as a};
+//# sourceMappingURL=chunk-SKOLS6IY.js.map

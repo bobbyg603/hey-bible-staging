@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/favorites/empty/empty.component.scss"],
+  "sourcesContent": [".w-50 {\n  width: 50%;\n}\n\n.w-25 {\n  width: 25%;\n}\n\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n"],
+  "mappings": "AAAA,CAAA,KACE,MAAA,IAGF,CAAA,KACE,MAAA,IAGF,CAAA,QACE,YAAA,KACA,aAAA",
+  "names": []
+}

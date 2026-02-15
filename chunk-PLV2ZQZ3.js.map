@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/common/capacitor/capacitor.service.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport { Capacitor } from '@capacitor/core';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class CapacitorService {\n  get android() {\n    return this.platform === 'android';\n  }\n\n  get ios() {\n    return this.platform === 'ios';\n  }\n\n  get mobile() {\n    return this.android || this.ios;\n  }\n\n  get platform() {\n    return Capacitor.getPlatform();\n  }\n\n  get web() {\n    return this.platform === 'web';\n  }\n}\n"],
+  "mappings": "gFAMA,IAAaA,GAAgB,IAAA,CAAvB,IAAOA,EAAP,MAAOA,CAAgB,CAC3B,IAAIC,SAAO,CACT,OAAO,KAAKC,WAAa,SAC3B,CAEA,IAAIC,KAAG,CACL,OAAO,KAAKD,WAAa,KAC3B,CAEA,IAAIE,QAAM,CACR,OAAO,KAAKH,SAAW,KAAKE,GAC9B,CAEA,IAAID,UAAQ,CACV,OAAOG,EAAUC,YAAW,CAC9B,CAEA,IAAIC,KAAG,CACL,OAAO,KAAKL,WAAa,KAC3B,yCAnBWF,EAAgB,wBAAhBA,EAAgBQ,QAAhBR,EAAgBS,UAAAC,WAFf,MAAM,CAAA,EAEd,IAAOV,EAAPW,SAAOX,CAAgB,GAAA",
+  "names": ["CapacitorService", "android", "platform", "ios", "mobile", "Capacitor", "getPlatform", "web", "factory", "\u0275fac", "providedIn", "_CapacitorService"]
+}

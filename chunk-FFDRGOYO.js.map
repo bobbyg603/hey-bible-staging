@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/search/parse.ts"],
+  "sourcesContent": ["import parse from '@hey-bible/bible-reference-parser';\n\nexport function parseBibleReference(query: string) {\n  const parsed = parse(query);\n\n  if (!parsed) {\n    return null;\n  }\n\n  return {\n    ...parsed,\n    chapter: Number(parsed.chapter),\n  } as NormalizedBibleParserResult;\n}\n\nexport type NormalizedBibleParserResult = {\n  book: string;\n  chapter: number;\n  verses: number[] | 'ALL';\n};\n"],
+  "mappings": "uFAEM,SAAUA,EAAoBC,EAAa,CAC/C,IAAMC,EAASC,EAAMF,CAAK,EAE1B,OAAKC,EAIEE,EAAAC,EAAA,GACFH,GADE,CAELI,QAASC,OAAOL,EAAOI,OAAO,IALvB,IAOX",
+  "names": ["parseBibleReference", "query", "parsed", "parse", "__spreadProps", "__spreadValues", "chapter", "Number"]
+}

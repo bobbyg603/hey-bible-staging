@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/layout/layout.component.scss"],
+  "sourcesContent": [".header-avatar {\n  width: 32px;\n  height: 32px;\n  margin: 8px;\n  cursor: pointer;\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n\n  &.fade-out {\n    opacity: 0;\n  }\n}\n\n.shift-left {\n  margin-left: 0px;\n}\n\n.sign-out-item {\n  position: absolute;\n  bottom: 32px;\n  width: 100%;\n}\n\nion-toolbar {\n  --min-height: 56px;\n}\n\nion-menu {\n  ion-toolbar {\n    --background: transparent;\n    --border-width: 0;\n  }\n}\n"],
+  "mappings": "AAAA,CAAA,cACE,MAAA,KACA,OAAA,KAFF,OAGE,IACA,OAAA,QACA,QAAA,EACA,WAAA,QAAA,IAAA,YAEA,CARF,aAQE,CAAA,SACE,QAAA,EAIJ,CAAA,WACE,YAAA,EAGF,CAAA,cACE,SAAA,SACA,OAAA,KACA,MAAA,KAGF,YACE,cAAA,KAIA,SAAA,YACE,cAAA,YACA,gBAAA",
+  "names": []
+}

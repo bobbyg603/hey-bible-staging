@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/common/logging/logging.service.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class LoggingService {\n  \n  log(message: string, ...args: any[]): void {\n    console.log(message, ...args);\n  }\n\n  warn(message: string, ...args: any[]): void {\n    console.warn(message, ...args);\n  }\n\n  error(message: string, ...args: any[]): void {\n    console.error(message, ...args);\n  }\n\n  info(message: string, ...args: any[]): void {\n    console.info(message, ...args);\n  }\n\n  debug(message: string, ...args: any[]): void {\n    console.debug(message, ...args);\n  }\n} "],
+  "mappings": "wCAKA,IAAaA,GAAc,IAAA,CAArB,IAAOA,EAAP,MAAOA,CAAc,CAEzBC,IAAIC,KAAoBC,EAAW,CACjCC,QAAQH,IAAIC,EAAS,GAAGC,CAAI,CAC9B,CAEAE,KAAKH,KAAoBC,EAAW,CAClCC,QAAQC,KAAKH,EAAS,GAAGC,CAAI,CAC/B,CAEAG,MAAMJ,KAAoBC,EAAW,CACnCC,QAAQE,MAAMJ,EAAS,GAAGC,CAAI,CAChC,CAEAI,KAAKL,KAAoBC,EAAW,CAClCC,QAAQG,KAAKL,EAAS,GAAGC,CAAI,CAC/B,CAEAK,MAAMN,KAAoBC,EAAW,CACnCC,QAAQI,MAAMN,EAAS,GAAGC,CAAI,CAChC,yCApBWH,EAAc,wBAAdA,EAAcS,QAAdT,EAAcU,UAAAC,WAFb,MAAM,CAAA,EAEd,IAAOX,EAAPY,SAAOZ,CAAc,GAAA",
+  "names": ["LoggingService", "log", "message", "args", "console", "warn", "error", "info", "debug", "factory", "\u0275fac", "providedIn", "_LoggingService"]
+}

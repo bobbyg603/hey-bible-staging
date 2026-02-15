@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/layout/footer/footer.component.scss"],
+  "sourcesContent": ["ion-tab-bar {\n  padding-top: 8px;\n}\n\n.tab-icon {\n  width: 24px;\n  height: 24px;\n  margin-bottom: 4px;\n  display: block;\n}\n"],
+  "mappings": "AAAA,YACE,YAAA,IAGF,CAAA,SACE,MAAA,KACA,OAAA,KACA,cAAA,IACA,QAAA",
+  "names": []
+}

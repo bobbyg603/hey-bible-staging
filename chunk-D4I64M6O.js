@@ -1,0 +1,2 @@
+import{$ as a}from"./chunk-EIAV7JGL.js";var n=(()=>{let e=class e{setItem(r,t){typeof t=="string"?localStorage.setItem(r,t):localStorage.setItem(r,JSON.stringify(t))}getItem(r){let t=localStorage.getItem(r);if(!t)return null;try{return JSON.parse(t)}catch{return t}}removeItem(r){localStorage.removeItem(r)}clear(){localStorage.clear()}};e.\u0275fac=function(t){return new(t||e)},e.\u0275prov=a({token:e,factory:e.\u0275fac,providedIn:"root"});let o=e;return o})();export{n as a};
+//# sourceMappingURL=chunk-D4I64M6O.js.map

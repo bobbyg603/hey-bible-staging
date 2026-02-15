@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/common/window/window.service.ts"],
+  "sourcesContent": ["\nimport { Injectable, DOCUMENT, inject } from '@angular/core';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class WindowService {\n  private document = inject<Document>(DOCUMENT);\n\n\n  getWindow(): Window & typeof globalThis {\n    return this.document.defaultView!;\n  }\n}\n"],
+  "mappings": "wDAMA,IAAaA,GAAa,IAAA,CAApB,IAAOA,EAAP,MAAOA,CAAa,CAH1BC,aAAA,CAIU,KAAAC,SAAWC,EAAiBC,CAAQ,EAG5CC,WAAS,CACP,OAAO,KAAKH,SAASI,WACvB,yCANWN,EAAa,wBAAbA,EAAaO,QAAbP,EAAaQ,UAAAC,WAFZ,MAAM,CAAA,EAEd,IAAOT,EAAPU,SAAOV,CAAa,GAAA",
+  "names": ["WindowService", "constructor", "document", "inject", "DOCUMENT", "getWindow", "defaultView", "factory", "\u0275fac", "providedIn", "_WindowService"]
+}

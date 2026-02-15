@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/login/login-with-email/login-with-email.page.scss"],
+  "sourcesContent": ["$buttonWidth: 75%;\n\n:host ::ng-deep {\n  ion-button {\n    width: $buttonWidth;\n    margin-top: 32px;\n  }\n\n  ion-grid {\n    height: 100%;\n  }\n\n  ion-row {\n    height: 100%;\n  }\n\n  ion-list {\n    --ion-item-background: transparent;\n  }\n\n  a {\n    text-decoration: none;\n\n    &:hover {\n      text-decoration: none;\n    }\n  }\n}\n\n"],
+  "mappings": "AAGE,MAAA,UAAA,WACE,MAJU,IAKV,WAAA,KAGF,MAAA,UAAA,SACE,OAAA,KAGF,MAAA,UAAA,QACE,OAAA,KAGF,MAAA,UAAA,SACE,uBAAA,YAGF,MAAA,UAAA,EACE,gBAAA,KAEA,MAAA,UAAA,CAAA,OACE,gBAAA",
+  "names": []
+}

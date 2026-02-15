@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/common/menu/menu-toggle.component.scss"],
+  "sourcesContent": [".header-avatar {\n  width: 24px;\n  height: 24px;\n  margin: 8px;\n  cursor: pointer;\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n\n  &.fade-out {\n    opacity: 0;\n  }\n}\n"],
+  "mappings": "AAAA,CAAA,cACE,MAAA,KACA,OAAA,KAFF,OAGE,IACA,OAAA,QACA,QAAA,EACA,WAAA,QAAA,IAAA,YAEA,CARF,aAQE,CAAA,SACE,QAAA",
+  "names": []
+}

@@ -1,0 +1,2 @@
+import{d as o}from"./chunk-YWHZWYCP.js";import"./chunk-PGBQIJS2.js";var s=class extends o{constructor(){super(),this._lastWindow=null}async open(n){this._lastWindow=window.open(n.url,n.windowName||"_blank")}async close(){return new Promise((n,l)=>{this._lastWindow!=null?(this._lastWindow.close(),this._lastWindow=null,n()):l("No active window to close!")})}},i=new s;export{i as Browser,s as BrowserWeb};
+//# sourceMappingURL=chunk-3ZDAUUCB.js.map

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/profile/avatar/avatar.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  width: 100%;\n  height: 100%;\n}\n\n:host .avatar_wrapper {\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  overflow: hidden;\n  background: var(--ion-color-step-50);\n  border: 2px solid #ffffff;\n\n  &.no-border {\n    border: none;\n  }\n\n  ion-icon.disabled {\n    color: var(--ion-color-light-shade);\n  }\n}\n\n// Apply thicker border only to larger avatars (like in the profile page)\n:host-context(.large-avatar) .avatar_wrapper {\n  border-width: 4px;\n}\n\n:host .avatar_wrapper ion-icon.no-avatar {\n  width: 100%;\n  height: 100%;\n}\n\n:host img {\n  display: block;\n  object-fit: cover;\n  width: 100%;\n  height: 100%;\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MACA,MAAA,KACA,OAAA,KAGF,MAAA,CAAA,eACE,MAAA,KACA,OAAA,KARF,cASE,IACA,SAAA,OACA,WAAA,IAAA,qBACA,OAAA,IAAA,MAAA,QAEA,MAAA,CARF,cAQE,CAAA,UACE,OAAA,KAGF,MAAA,CAZF,eAYE,QAAA,CAAA,SACE,MAAA,IAAA,yBAKJ,cAAA,CAAA,cAAA,CAlBA,eAmBE,aAAA,IAGF,MAAA,CAtBA,eAsBA,QAAA,CAAA,UACE,MAAA,KACA,OAAA,KAGF,MAAA,IACE,QAAA,MACA,WAAA,MACA,MAAA,KACA,OAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/common/verse/skeleton-card/skeleton-card.component.scss"],
+  "sourcesContent": ["ion-card-header {\n  padding: 16px 16px 0 16px;\n}\n\nion-card-content {\n  padding: 16px;\n}\n"],
+  "mappings": "AAAA,wBACE,KAAA,KAAA,EAGF,iBAJA,QAKE",
+  "names": []
+}

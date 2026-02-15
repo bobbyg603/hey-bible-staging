@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/images/images.page.scss"],
+  "sourcesContent": [".virtual-scroll-viewport {\n  height: 100%;\n  width: 100%;\n}\n\n:host ::ng-deep {\n  .cdk-virtual-scroll-content-wrapper {\n    padding: 16px;\n    \n    ion-grid {\n      padding: 0;\n    }\n\n    ion-row {\n      margin: 0;\n    }\n\n    ion-col {\n      padding: 8px;\n    }\n    \n    app-image-attachment-card {\n      display: block;\n      height: 100%;\n    }\n  }\n}\n"],
+  "mappings": "AAAA,CAAA,wBACE,OAAA,KACA,MAAA,KAIA,MAAA,UAAA,CAAA,mCANF,QAOI,KAEA,MAAA,UAAA,CAHF,mCAGE,SATJ,QAUM,EAGF,MAAA,UAAA,CAPF,mCAOE,QAbJ,OAcM,EAGF,MAAA,UAAA,CAXF,mCAWE,QAjBJ,QAkBM,IAGF,MAAA,UAAA,CAfF,mCAeE,0BACE,QAAA,MACA,OAAA",
+  "names": []
+}
